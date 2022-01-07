@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+input{
+  width: 50%;
+  padding: 8px 9px;
+  margin: 10px 0;
+}
+input[type=text] {
+  width: 250px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius:10px;
+  border:none;
+  border-bottom: 1.5px solid #333;
+
+  outline: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+h1{
+  color: rgb(247, 78, 78);
+  margin-top:25px;
+  font-size: 25px;
+}
+img{
+  border: 1px solid ;
+  margin: 5px;
+  border-radius:20px;
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 768px){
+  label{
+    font-size:20px;
+  }
+  img{
+    width: 150px;
+    height: 150px;
+  }
+}
